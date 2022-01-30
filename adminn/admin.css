@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #02C4FE;
+    color: white;
+}
+
+.naslov{
+    text-align: center;
+    margin-top: 35px;
+    color: #0969B4;
+}
+
+
+table{
+    font-size: 16px;
+    min-width: 400px;
+    border-radius: 15px 15px 0 0;
+    overflow: hidden;
+    margin: 25px 0;
+    position: absolute;
+    border-collapse: collapse;
+    left: 15%;
+    top: 220px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.65);
+}
+
+
+
+table th, table td{
+    padding: 15px 15px;
+}
+
+table tr th{
+    text-align: left;
+    background-color: #FAA500;
+    font-weight: bold;
+}
+
+
+
+table tr{
+    border-bottom: 1px solid white;
+}
+
+table tr:nth-of-type(even){
+    background-color: #0969B4;
+}
+
+table tr:last-of-type{
+    border-bottom: 2px solid #007994;
+}

@@ -1,0 +1,30 @@
+body{
+    background-color: #02C4FE;
+}
+
+.glavni{
+    background-color: #FAA500;
+    /* width: 50%;
+    margin: auto; */
+    display: flex;
+    /* border-radius: 15px;
+    position: relative;
+    top: 100px; */
+}
+
+/* .glavni .prvi{
+    background-color: #0969B4;
+    width: 50%;
+    height: 530px;
+    border-radius: 15px;
+
+}
+
+.glavni .drugi{
+    background-color: #FAA500;
+    width: 50%;
+    height: 530px;
+    border-radius: 15px;
+
+
+} */
